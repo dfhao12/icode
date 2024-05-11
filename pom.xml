@@ -33,6 +33,7 @@
         <java-jwt.version>4.4.0</java-jwt.version>
         <minio.version>8.5.9</minio.version>
         <swagger.version>1.7.0</swagger.version>
+        <knife4j.version>4.4.0</knife4j.version>
     </properties>
 
     <dependencyManagement>
@@ -74,6 +75,12 @@
                 <groupId>org.springdoc</groupId>
                 <artifactId>springdoc-openapi-ui</artifactId>
                 <version>${swagger.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.github.xiaoymin</groupId>
+                <artifactId>knife4j-openapi3-spring-boot-starter</artifactId>
+                <version>${knife4j.version}</version>
             </dependency>
 
             <!--    minio   -->
