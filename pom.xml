@@ -27,11 +27,12 @@
     <properties>
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <springfox-boot-starter.version>3.0.0</springfox-boot-starter.version>
+        <mysql.version>8.0.33</mysql.version>
         <mybatis-spring-boot-starter.version>2.2.1</mybatis-spring-boot-starter.version>
         <druid-spring-boot-starter.version>1.2.8</druid-spring-boot-starter.version>
         <log4j.version>1.2.17</log4j.version>
         <shiro-spring-boot-web-starter.version>1.8.0</shiro-spring-boot-web-starter.version>
-        <springfox-boot-starter.version>3.0.0</springfox-boot-starter.version>
         <java-jwt.version>4.4.0</java-jwt.version>
         <minio.version>8.5.9</minio.version>
         <swagger.version>1.7.0</swagger.version>
@@ -41,6 +42,11 @@
     <dependencyManagement>
         <dependencies>
             <!--数据库配置-->
+            <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>${mysql.version}</version>
+            </dependency>
             <dependency>
                 <groupId>org.mybatis.spring.boot</groupId>
                 <artifactId>mybatis-spring-boot-starter</artifactId>
