@@ -12,7 +12,9 @@
     <description>Tools project for Spring Boot</description>
 
     <modules>
+        <module>ispringboot</module>
         <module>demo-swagger</module>
+        <module>demo-springboot</module>
     </modules>
 
     <parent>

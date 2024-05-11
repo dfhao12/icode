@@ -4,10 +4,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>demo-swagger</artifactId>
+    <artifactId>ispringboot</artifactId>
     <packaging>jar</packaging>
 
-    <name>demo-swagger</name>
+    <name>ispringboot</name>
     <description>Tools project for Spring Boot</description>
 
     <parent>
@@ -23,13 +23,7 @@
         </dependency>
 
         <!--swagger-->
-        <!--访问地址：http://localhost:8080/v3/api-docs-->
         <!--访问地址：http://localhost:8080/swagger-ui/index.html-->
-<!--        <dependency>-->
-<!--            <groupId>org.springdoc</groupId>-->
-<!--            <artifactId>springdoc-openapi-ui</artifactId>-->
-<!--        </dependency>-->
-        <!--美化swagger-->
         <!--访问地址：http://localhost:8080/doc.html-->
         <dependency>
             <groupId>com.github.xiaoymin</groupId>
