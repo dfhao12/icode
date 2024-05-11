@@ -12,6 +12,7 @@
     <description>Tools project for Spring Boot</description>
 
     <modules>
+        <module>demo-swagger</module>
     </modules>
 
     <parent>
@@ -31,6 +32,7 @@
         <springfox-boot-starter.version>3.0.0</springfox-boot-starter.version>
         <java-jwt.version>4.4.0</java-jwt.version>
         <minio.version>8.5.9</minio.version>
+        <swagger.version>1.7.0</swagger.version>
     </properties>
 
     <dependencyManagement>
@@ -69,9 +71,9 @@
 
             <!--swagger-->
             <dependency>
-                <groupId>io.springfox</groupId>
-                <artifactId>springfox-boot-starter</artifactId>
-                <version>${springfox-boot-starter.version}</version>
+                <groupId>org.springdoc</groupId>
+                <artifactId>springdoc-openapi-ui</artifactId>
+                <version>${swagger.version}</version>
             </dependency>
 
             <!--    minio   -->
@@ -118,7 +120,7 @@
     <repositories>
         <repository>
             <id>public</id>
-            <url>https://mirrors.cloud.tencent.com/repository/maven/</url>
+            <url>https://maven.aliyun.com/repository/public</url>
             <snapshots>
                 <enabled>false</enabled>
             </snapshots>
@@ -127,7 +129,7 @@
     <pluginRepositories>
         <pluginRepository>
             <id>public</id>
-            <url>https://mirrors.cloud.tencent.com/repository/maven/</url>
+            <url>https://maven.aliyun.com/repository/public</url>
             <snapshots>
                 <enabled>false</enabled>
             </snapshots>
