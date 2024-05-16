@@ -1,13 +1,13 @@
-package com.dfhao.swagger;
+package com.dfhao;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DemoSwaggerApplication {
+public class ShiroApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(DemoSwaggerApplication.class, args);
+        SpringApplication.run(ShiroApplication.class, args);
     }
 
 }

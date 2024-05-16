@@ -15,6 +15,7 @@
         <module>ispringboot</module>
         <module>demo-swagger</module>
         <module>demo-springboot</module>
+        <module>demo-shiro</module>
     </modules>
 
     <parent>
