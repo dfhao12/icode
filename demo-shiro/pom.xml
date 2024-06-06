@@ -7,9 +7,6 @@
     <artifactId>demo-shiro</artifactId>
     <packaging>jar</packaging>
 
-    <name>demo-shiro</name>
-    <description>Tools project for Spring Boot</description>
-
     <parent>
         <groupId>com.dfhao</groupId>
         <artifactId>icode</artifactId>
