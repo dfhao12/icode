@@ -4,10 +4,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>ispringboot</artifactId>
+    <artifactId>iadmin</artifactId>
     <packaging>jar</packaging>
 
-    <name>ispringboot</name>
+    <name>iadmin</name>
     <description>Tools project for Spring Boot</description>
 
     <parent>
@@ -18,8 +18,27 @@
 
     <dependencies>
         <dependency>
+            <groupId>com.dfhao</groupId>
+            <artifactId>ibase</artifactId>
+        </dependency>
+
+        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <!--mybatis-plus-->
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-boot-starter</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-boot-starter-test</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-generator</artifactId>
         </dependency>
 
         <!--mysql-->

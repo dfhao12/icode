@@ -16,7 +16,7 @@ logging:
     sql: debug
     web: info
   file:
-    path: ./log/ispringboot
+    path: ./log/iadmin
 springdoc:
   api-docs:
     # 是否开启文档功能，默认为true，可不配置

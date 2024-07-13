@@ -5,18 +5,19 @@
 
     <groupId>com.dfhao</groupId>
     <artifactId>icode</artifactId>
-    <version>0.0.1</version>
+    <version>${iLove.version}</version>
     <packaging>pom</packaging>
 
     <name>icode</name>
     <description>Tools project for Spring Boot</description>
 
     <modules>
-        <module>ispringboot</module>
         <module>demo-swagger</module>
         <module>demo-springboot</module>
         <module>demo-shiro</module>
         <module>ishiro</module>
+        <module>iadmin</module>
+        <module>ibase</module>
     </modules>
 
     <parent>
@@ -27,6 +28,7 @@
     </parent>
 
     <properties>
+        <iLove.version>0.0.1</iLove.version>
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <springfox-boot-starter.version>3.0.0</springfox-boot-starter.version>
@@ -39,10 +41,33 @@
         <minio.version>8.5.9</minio.version>
         <swagger.version>1.7.0</swagger.version>
         <knife4j.version>4.4.0</knife4j.version>
+        <mybatis-plus.version>3.5.7</mybatis-plus.version>
     </properties>
 
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>com.dfhao</groupId>
+                <artifactId>ibase</artifactId>
+                <version>${iLove.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus-boot-starter</artifactId>
+                <version>${mybatis-plus.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus-boot-starter-test</artifactId>
+                <version>${mybatis-plus.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus-generator</artifactId>
+                <version>${mybatis-plus.version}</version>
+            </dependency>
+
             <!--数据库配置-->
             <dependency>
                 <groupId>mysql</groupId>
