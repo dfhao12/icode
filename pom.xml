@@ -13,11 +13,11 @@
 
     <modules>
         <module>demo-swagger</module>
-        <module>demo-springboot</module>
         <module>demo-shiro</module>
         <module>ishiro</module>
         <module>iadmin</module>
         <module>ibase</module>
+        <module>icommon</module>
     </modules>
 
     <parent>
@@ -42,6 +42,7 @@
         <swagger.version>1.7.0</swagger.version>
         <knife4j.version>4.4.0</knife4j.version>
         <mybatis-plus.version>3.5.7</mybatis-plus.version>
+        <hutool.version>5.8.26</hutool.version>
     </properties>
 
     <dependencyManagement>
@@ -51,7 +52,20 @@
                 <artifactId>ibase</artifactId>
                 <version>${iLove.version}</version>
             </dependency>
+            <dependency>
+                <groupId>com.dfhao</groupId>
+                <artifactId>icommon</artifactId>
+                <version>${iLove.version}</version>
+            </dependency>
 
+            <!--hutool-->
+            <dependency>
+                <groupId>cn.hutool</groupId>
+                <artifactId>hutool-all</artifactId>
+                <version>${hutool.version}</version>
+            </dependency>
+
+            <!--mybatis-plus-->
             <dependency>
                 <groupId>com.baomidou</groupId>
                 <artifactId>mybatis-plus-boot-starter</artifactId>

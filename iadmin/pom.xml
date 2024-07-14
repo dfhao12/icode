@@ -21,10 +21,19 @@
             <groupId>com.dfhao</groupId>
             <artifactId>ibase</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.dfhao</groupId>
+            <artifactId>icommon</artifactId>
+        </dependency>
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
         </dependency>
 
         <!--mybatis-plus-->

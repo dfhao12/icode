@@ -1,6 +1,8 @@
 package com.dfhao.user;
 
 import com.baomidou.mybatisplus.test.autoconfigure.MybatisPlusTest;
+import com.dfhao.admin.user.User;
+import com.dfhao.admin.user.UserMapper;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 

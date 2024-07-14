@@ -1,4 +1,4 @@
-package com.dfhao.config;
+package com.dfhao.admin.config;
 
 import io.swagger.v3.oas.annotations.OpenAPIDefinition;
 import io.swagger.v3.oas.annotations.enums.SecuritySchemeIn;
@@ -27,8 +27,7 @@ public class SwaggerConfig {
         // 联系人信息
         Contact contact = new Contact()
                 .name("dfhao")
-                .email("dfhao12@163.com")
-                .url("dfhao.com");
+                .email("dfhao12@163.com");
 
         // 授权许可信息(license)
         License license = new License()
@@ -38,9 +37,8 @@ public class SwaggerConfig {
                 .extensions(new HashMap<>());
 
         Info info = new Info()
-                .title("API 示例文档")
+                .title("API 文档")
                 .description("被你捧做神明的人，怎会低头看尘埃里的你")
-                .version("0.0.1")
                 .license(license)
                 .contact(contact);
 

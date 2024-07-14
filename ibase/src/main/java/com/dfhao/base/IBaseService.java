@@ -1,4 +1,4 @@
-package com.dfhao.base.service;
+package com.dfhao.base;
 
 import com.baomidou.mybatisplus.extension.service.IService;
 
