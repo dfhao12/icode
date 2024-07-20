@@ -5,7 +5,7 @@
 
     <groupId>com.dfhao</groupId>
     <artifactId>icode</artifactId>
-    <version>${iLove.version}</version>
+    <version>0.0.1</version>
     <packaging>pom</packaging>
 
     <name>icode</name>
@@ -29,19 +29,25 @@
 
     <properties>
         <iLove.version>0.0.1</iLove.version>
+
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
         <springfox-boot-starter.version>3.0.0</springfox-boot-starter.version>
+
         <mysql.version>8.0.33</mysql.version>
-        <mybatis-spring-boot-starter.version>2.2.1</mybatis-spring-boot-starter.version>
+        <mybatis-spring-boot-starter.version>2.3.1</mybatis-spring-boot-starter.version>
+        <mybatis-plus.version>3.5.7</mybatis-plus.version>
         <druid-spring-boot-starter.version>1.2.8</druid-spring-boot-starter.version>
-        <log4j.version>1.2.17</log4j.version>
+
         <shiro-spring-boot-web-starter.version>1.8.0</shiro-spring-boot-web-starter.version>
         <java-jwt.version>4.4.0</java-jwt.version>
-        <minio.version>8.5.9</minio.version>
+
         <swagger.version>1.7.0</swagger.version>
         <knife4j.version>4.4.0</knife4j.version>
-        <mybatis-plus.version>3.5.7</mybatis-plus.version>
+
+        <log4j.version>1.2.17</log4j.version>
+        <minio.version>8.5.9</minio.version>
         <hutool.version>5.8.26</hutool.version>
     </properties>
 
@@ -143,6 +149,12 @@
                 <artifactId>guava</artifactId>
                 <version>33.2.0-jre</version>
             </dependency>
+
+            <dependency>
+                <groupId>com.alibaba.fastjson2</groupId>
+                <artifactId>fastjson2</artifactId>
+                <version>2.0.52</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
@@ -152,6 +164,7 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>2.7.1</version>
                 <configuration>
                     <fork>true</fork>
                 </configuration>
