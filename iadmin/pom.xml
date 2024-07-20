@@ -7,9 +7,6 @@
     <artifactId>iadmin</artifactId>
     <packaging>jar</packaging>
 
-    <name>iadmin</name>
-    <description>Tools project for Spring Boot</description>
-
     <parent>
         <groupId>com.dfhao</groupId>
         <artifactId>icode</artifactId>
@@ -22,10 +19,10 @@
             <groupId>com.dfhao</groupId>
             <artifactId>ibase</artifactId>
         </dependency>
-        <dependency>
-            <groupId>com.dfhao</groupId>
-            <artifactId>icommon</artifactId>
-        </dependency>
+        <!--        <dependency>-->
+        <!--            <groupId>com.dfhao</groupId>-->
+        <!--            <artifactId>icommon</artifactId>-->
+        <!--        </dependency>-->
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -60,10 +57,10 @@
 <!--            <groupId>org.mybatis.spring.boot</groupId>-->
 <!--            <artifactId>mybatis-spring-boot-starter</artifactId>-->
 <!--        </dependency>-->
-        <dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>druid-spring-boot-starter</artifactId>
-        </dependency>
+        <!--        <dependency>-->
+        <!--            <groupId>com.alibaba</groupId>-->
+        <!--            <artifactId>druid-spring-boot-starter</artifactId>-->
+        <!--        </dependency>-->
 
         <!--redis-->
         <dependency>

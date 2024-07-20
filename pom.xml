@@ -31,6 +31,8 @@
         <iLove.version>0.0.1</iLove.version>
 
         <java.version>1.8</java.version>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
         <springfox-boot-starter.version>3.0.0</springfox-boot-starter.version>

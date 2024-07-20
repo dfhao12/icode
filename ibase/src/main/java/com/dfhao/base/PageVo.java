@@ -5,14 +5,6 @@ import java.io.Serializable;
 import java.util.List;
 import lombok.Data;
 
-/**
- * 类说明
- *
- * @version 1.0
- * @author: zhaojunchao
- * @create: 2024-07-20 11:51
- * @since 1.0
- **/
 @Data
 @Schema(name = "PageVo", description = "分页结果")
 public class PageVo<T> implements Serializable {
