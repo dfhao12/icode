@@ -19,10 +19,10 @@
             <groupId>com.dfhao</groupId>
             <artifactId>ibase</artifactId>
         </dependency>
-        <!--        <dependency>-->
-        <!--            <groupId>com.dfhao</groupId>-->
-        <!--            <artifactId>icommon</artifactId>-->
-        <!--        </dependency>-->
+        <dependency>
+            <groupId>com.dfhao</groupId>
+            <artifactId>icommon</artifactId>
+        </dependency>
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -53,10 +53,10 @@
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
         </dependency>
-<!--        <dependency>-->
-<!--            <groupId>org.mybatis.spring.boot</groupId>-->
-<!--            <artifactId>mybatis-spring-boot-starter</artifactId>-->
-<!--        </dependency>-->
+        <!--        <dependency>-->
+        <!--            <groupId>org.mybatis.spring.boot</groupId>-->
+        <!--            <artifactId>mybatis-spring-boot-starter</artifactId>-->
+        <!--        </dependency>-->
         <!--        <dependency>-->
         <!--            <groupId>com.alibaba</groupId>-->
         <!--            <artifactId>druid-spring-boot-starter</artifactId>-->
@@ -80,6 +80,14 @@
         <dependency>
             <groupId>com.alibaba.fastjson2</groupId>
             <artifactId>fastjson2</artifactId>
+        </dependency>
+
+
+        <!--liteflow-->
+        <dependency>
+            <groupId>com.yomahub</groupId>
+            <artifactId>liteflow-spring-boot-starter</artifactId>
+            <version>2.12.1</version>
         </dependency>
 
 
