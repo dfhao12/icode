@@ -3,7 +3,7 @@ package com.dfhao.common;
 import com.dfhao.base.PageVo;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
-import java.util.Map;
+import java.util.HashMap;
 import javax.annotation.Resource;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -19,7 +19,7 @@ public class CommonController {
 
     @PostMapping("/page")
     @Operation(summary = "分页查询")
-    public PageVo<Map<String, Object>> page(@RequestBody CommonConditionVo commonConditionVo) {
-        return commonService.page(commonConditionVo);
+    public PageVo<HashMap<String, Object>> commonPage(@RequestBody CommonConditionVo commonConditionVo) {
+        return commonService.commonPage(commonConditionVo);
     }
 }

@@ -24,7 +24,7 @@ springdoc:
     # 访问ip:port/api，可直接访问Swagger springdoc
     path: /api
 mybatis-plus:
-  mapper-locations: classpath:/mapper/**/*.xml
+  mapper-locations: classpath*:/mapper/**/*.xml
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
     # 字段映射为 javaBean时，自动转驼峰，而不用配置 @TableField
